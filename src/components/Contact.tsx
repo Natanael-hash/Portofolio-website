@@ -9,7 +9,6 @@ export const Contact = () => {
   const [formStatus, setFormStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [formMessage, setFormMessage] = useState('');
   
-  // This will need to be configured with your EmailJS account details
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
@@ -18,7 +17,6 @@ export const Contact = () => {
     setFormStatus('submitting');
     
     try {
-      //Uncomment and update these with your actual EmailJS service IDs
       await emailjs.sendForm(
         'service_a52zs7b',
         'template_mzn1qho',
@@ -26,7 +24,6 @@ export const Contact = () => {
         '9i4B12XQq486lqApK'
       );
       
-      // For demo purposes, we'll simulate a successful response
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       setFormStatus('success');
@@ -117,6 +114,16 @@ export const Contact = () => {
                     <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
                     </svg>
+                  </a>
+                </div>
+                <div className="flex justify-center md:justify-start mt-4">
+                  <a
+                    href="/Nathanael-Hordon-CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full md:w-auto mt-6 px-4 py-3 text-sm bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors shadow-md hover:shadow-lg flex items-center justify-center text-center"
+                  >
+                    Download My CV
                   </a>
                 </div>
               </div>
