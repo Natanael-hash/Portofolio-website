@@ -56,7 +56,7 @@ export const Project = () => {
               <div className="absolute inset-0 bg-primary-100 rounded-lg transform rotate-3"></div>
               <img 
                 src="/Visual-AI.png" 
-                alt="Visual-AI Application" 
+                alt="Screenshot of Visual-AI Application interface" 
                 className="rounded-lg shadow-xl relative z-10"
               />
               
@@ -166,7 +166,7 @@ export const Project = () => {
                 <div className="h-full flex items-center justify-center p-8">
                   <img 
                     src="/Visual-AI.png" 
-                    alt="Visual-AI in action" 
+                    alt="Diagram illustrating Visual-AI workflow" 
                     className="rounded-lg shadow-lg max-h-64 md:max-h-full object-contain"
                   />
                 </div>

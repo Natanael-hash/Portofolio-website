@@ -25,13 +25,36 @@ Check out the GitHub repo: [Visual-AI](https://github.com/Natanael-hash/Visual-A
 
 ## 🛠️ Technologies Used
 
-- React + TypeScript  
-- TailwindCSS  
-- Vite  
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- EmailJS
 - Git & GitHub
 
-## 📁 Project Setup
+### Running Locally
 
-```bash
-npm install
-npm run dev
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Natanael-hash/Portofolio-website.git](https://github.com/Natanael-hash/Portofolio-website.git)
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Portofolio-website
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   # or
+   # yarn install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   # yarn dev
+   ```
+5. Open [http://localhost:5173](http://localhost:5173) (sau portul afișat de Vite) in your browser.
+
+**Note for EmailJS:** To use the contact form, you will need to set up your own EmailJS account and create a `.env` file in the root of the project with your credentials:

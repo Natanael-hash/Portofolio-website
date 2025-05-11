@@ -83,7 +83,7 @@ export const Hero = () => {
               <div className="w-72 h-72 md:w-96 md:h-96 bg-primary-400/20 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 blur-xl"></div>
               <img 
                 src="/6B84E397-8F2C-4963-8376-411A019E266D_1_102_a.jpeg" 
-                alt="Natanael Hordon" 
+                alt="Natanael Hordon - Python AI Developer" 
                 className="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full border-4 border-white/30 shadow-xl relative z-10"
               />
             </div>
