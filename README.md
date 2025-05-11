@@ -28,7 +28,6 @@ Check out the GitHub repo: [Visual-AI](https://github.com/Natanael-hash/Visual-A
 - React + TypeScript  
 - TailwindCSS  
 - Vite  
-- Python, FastAPI  
 - Git & GitHub
 
 ## 📁 Project Setup
