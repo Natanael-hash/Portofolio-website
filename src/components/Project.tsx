@@ -55,7 +55,7 @@ export const Project = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-primary-100 rounded-lg transform rotate-3"></div>
               <img 
-                src="public/assets/Visual-AI.png" 
+                src="public/Visual-AI.png" 
                 alt="Visual-AI Application" 
                 className="rounded-lg shadow-xl relative z-10"
               />
@@ -165,7 +165,7 @@ export const Project = () => {
                 ></motion.div>
                 <div className="h-full flex items-center justify-center p-8">
                   <img 
-                    src="public/assets/Visual-AI.png" 
+                    src="public/Visual-AI.png" 
                     alt="Visual-AI in action" 
                     className="rounded-lg shadow-lg max-h-64 md:max-h-full object-contain"
                   />
