@@ -5,7 +5,7 @@ It showcases my work, technical skills, and the **Visual-AI** project — a real
 
 ## 🚀 Live Preview
 
-👉 [(Add your deployed link here once available)](https://portofolio-website-sage.vercel.app/)
+👉 [(My Portofolio Website is here)](https://portofolio-website-sage.vercel.app/)
 
 ## 🧠 About Me
 
